@@ -23,4 +23,12 @@ export default class Cl_Circo {
             auxMayor = "Ambos"
         }
     }
+
+    devolverVentas() {
+        return acumVentas;
+    }
+
+    devolverMayor() {
+        return auxMayor;
+    }
 }
